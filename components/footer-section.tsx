@@ -138,7 +138,7 @@ export function FooterSection() {
             </li>
             <li>
               <a
-                href="https://www.showdoc.com.cn/2598853875396834/11559060627320140"
+                href="https://www.yuque.com/nobodysms/xlypsu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
