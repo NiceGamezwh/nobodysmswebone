@@ -97,7 +97,7 @@ export function HeroSection() {
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </Link>
           <a
-            href="https://www.yuque.com/nobodysms/xlypsu/of9ok982iyhah43g"
+            href="https://www.yuque.com/nobodysms/xlypsu"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors duration-200 border-b border-muted-foreground/30 hover:border-primary pb-1"
