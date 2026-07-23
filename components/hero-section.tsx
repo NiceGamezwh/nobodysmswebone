@@ -75,7 +75,7 @@ export function HeroSection() {
         </h2>
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
-          即时接收短信验证码，虚拟号码覆盖全平台。无需个人信息，仅需 ¥0.36/条。
+          即时接收短信验证码。无需个人信息，仅需 ¥0.36/条。
           一次性充值99元得永久会员账户，后续充值享6折优惠。
         </p>
 
