@@ -28,7 +28,7 @@ export function HowItWorksSection() {
         { text: "充值", highlight: false },
         { text: "支付", highlight: true },
       ],
-      description: "支持支付宝、微信支付，仅需 ¥0.36/条。永久会员享6折优惠。",
+      description: "支持支付宝、微信支付，仅需 ¥0.36/条。普通用户无法充值，一次性充值 ¥99 开通永久会员专属账户后，后续充值永久享 6 折优惠。",
       align: "right",
     },
     {
