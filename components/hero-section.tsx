@@ -76,12 +76,12 @@ export function HeroSection() {
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
           即时接收短信验证码，虚拟号码覆盖全平台。无需个人信息，仅需 ¥0.36/条。
-          永久会员享6折优惠，仅需¥99一次性购买。
+          一次性充值99元得永久会员账户，后续充值享6折优惠。
         </p>
 
         <div className="mt-16 flex items-center gap-8 flex-wrap">
           <a
-            href="https://nobodysms.cn/"
+            href="https://nobodysms.online/"
             target="_blank"
             rel="noopener noreferrer"
             className="pixel-button inline-flex items-center gap-3 font-mono text-xs uppercase tracking-widest"
@@ -97,7 +97,7 @@ export function HeroSection() {
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </Link>
           <a
-            href="https://www.yuque.com/nobodysms/xlypsu"
+            href="https://www.showdoc.com.cn/2598853875396834/11559060627320140"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors duration-200 border-b border-muted-foreground/30 hover:border-primary pb-1"
@@ -129,8 +129,8 @@ export function HeroSection() {
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">每条短信</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥99</span>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">永久会员</p>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.216</span>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员专享</p>
           </div>
           <div>
             <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">60%</span>
