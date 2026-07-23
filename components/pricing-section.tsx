@@ -8,14 +8,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 gsap.registerPlugin(ScrollTrigger)
 
 const membershipFeatures = [
-  "充值享永久6折优惠",
-  "一次购买，终身有效",
+  "一次性充值 ¥99，全额到账余额 ¥99",
+  "开通充值权限，成为永久会员专属账户",
+  "后续充值永久享 6 折优惠",
+  "普通用户无法充值，仅会员可充值",
   "邀请返利: 下级消费5%返还",
-  "邀请奖励: 双方各得¥3",
-  "专属会员QQ群",
-  "优先客服响应",
-  "新功能优先体验",
-  "专属定制服务",
+  "新功能优先体验 & 专属定制服务",
 ]
 
 export function PricingSection() {
@@ -70,7 +68,7 @@ export function PricingSection() {
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">03 / 永久会员</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">MEMBERSHIP</h2>
         <p className="mt-4 max-w-lg font-mono text-sm text-muted-foreground leading-relaxed">
-          一次购买，永久享受充值6折优惠。基础价格 ¥0.36/条，会员仅需 ¥0.216/条。
+          一次性充值 ¥99，全额到账为账户余额，同时开通永久会员专属账户与充值权限。后续充值永久享 6 折优惠。普通用户无法充值。
         </p>
       </div>
 
@@ -84,14 +82,14 @@ export function PricingSection() {
 
           {/* Plan name */}
           <h3 className="font-[var(--font-bebas)] text-3xl md:text-4xl tracking-tight mb-2">永久会员</h3>
-          <p className="font-mono text-xs text-muted-foreground mb-8">一次付费，终身有效，无需续费</p>
+          <p className="font-mono text-xs text-muted-foreground mb-8">一次充值 ¥99，全额到账余额，终身有效</p>
 
           {/* Price */}
           <div className="mb-10">
             <span className="font-[var(--font-bebas)] text-6xl md:text-8xl tracking-tight text-primary">
               ¥99
             </span>
-            <span className="font-mono text-xs text-muted-foreground ml-3">一次性付费</span>
+            <span className="font-mono text-xs text-muted-foreground ml-3">一次性充值 = 余额 ¥99</span>
             <div className="mt-3 font-mono text-xs">
               <span className="text-muted-foreground line-through">¥0.36/条</span>
               <span className="text-primary ml-2">¥0.216/条 (6折)</span>
@@ -120,7 +118,7 @@ export function PricingSection() {
 
           {/* Note */}
           <p className="mt-6 font-mono text-[10px] text-muted-foreground leading-relaxed">
-            充值时请备注您的平台账号和联系QQ，以便我们为您开通会员权益。
+            首次充值 ¥99 后，金额将全额到账为您的账户余额，并开通永久会员专属账户及充值权限。此后即可随时充值并享 6 折优惠（普通用户无法充值）。
           </p>
 
           {/* Invite rules */}
@@ -129,15 +127,7 @@ export function PricingSection() {
             <ul className="space-y-2">
               <li className="font-mono text-[10px] text-muted-foreground leading-relaxed flex items-start gap-2">
                 <span className="text-primary mt-0.5 flex-shrink-0">{'>'}</span>
-                <span>邀请新用户完成首次充值后，您和被邀请用户账户各得 <span className="text-primary">¥3</span> 奖励</span>
-              </li>
-              <li className="font-mono text-[10px] text-muted-foreground leading-relaxed flex items-start gap-2">
-                <span className="text-primary mt-0.5 flex-shrink-0">{'>'}</span>
                 <span>下级用户每次消费金额的 <span className="text-primary">5%</span> 将自动返还至您的账户</span>
-              </li>
-              <li className="font-mono text-[10px] text-muted-foreground leading-relaxed flex items-start gap-2">
-                <span className="text-primary mt-0.5 flex-shrink-0">{'!'}</span>
-                <span>邀请奖励需经管理员审核后发放，严禁冒充新用户等违规行为，违规将不予通过</span>
               </li>
             </ul>
           </div>
@@ -171,6 +161,9 @@ export function PricingSection() {
         </div>
         <p className="mt-4 font-mono text-xs text-muted-foreground">
           普通用户价格: <span className="text-primary">¥0.36/条</span> | 会员价格: <span className="text-primary">¥0.216/条</span>
+        </p>
+        <p className="mt-2 font-mono text-xs text-muted-foreground">
+          注: 普通用户无法充值，需一次性充值 <span className="text-primary">¥99</span> 开通永久会员专属账户后方可充值。
         </p>
       </div>
     </section>
