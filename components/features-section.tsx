@@ -29,7 +29,7 @@ const features = [
   {
     icon: "04",
     title: "永久会员",
-    description: "仅需¥99一次性购买永久会员，享受充值永久6折优惠，终身有效无需续费。",
+    description: "一次性充值¥99得会员专属账户，后续充值享永久6折优惠，终身有效无需续费。",
     span: "col-span-2 row-span-1",
   },
   {
