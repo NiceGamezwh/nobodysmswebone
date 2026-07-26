@@ -81,7 +81,7 @@ export function HeroSection() {
 
         <div className="mt-16 flex items-center gap-8 flex-wrap">
           <a
-            href="https://nobodysms.online/"
+            href="https://nobodysms.cn/"
             target="_blank"
             rel="noopener noreferrer"
             className="pixel-button inline-flex items-center gap-3 font-mono text-xs uppercase tracking-widest"
