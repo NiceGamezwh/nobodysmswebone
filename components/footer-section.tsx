@@ -128,7 +128,7 @@ export function FooterSection() {
           <ul className="space-y-2">
             <li>
               <a
-                href="https://nobodysms.online/"
+                href="https://nobodysms.cn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
