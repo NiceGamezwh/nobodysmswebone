@@ -8,12 +8,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 gsap.registerPlugin(ScrollTrigger)
 
 const membershipFeatures = [
-  "一次性充值 ¥99，全额到账余额 ¥99",
+  "购买30元卡密，送永久会员专属账户",
   "开通充值权限，成为永久会员专属账户",
-  "后续充值永久享 6 折优惠",
+  "后续充值永久享 9 折优惠",
   "普通用户无法充值，仅会员可充值",
   "邀请返利: 下级消费5%返还",
   "新功能优先体验 & 专属定制服务",
+  "赠送专属对接码密钥",
 ]
 
 export function PricingSection() {
@@ -68,7 +69,7 @@ export function PricingSection() {
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">03 / 永久会员</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">MEMBERSHIP</h2>
         <p className="mt-4 max-w-lg font-mono text-sm text-muted-foreground leading-relaxed">
-          一次性充值 ¥99，全额到账为账户余额，同时开通永久会员专属账户与充值权限。后续充值永久享 6 折优惠。普通用户无法充值。
+          购买30元卡密，送永久会员专属账户与充值权限。后续充值永久享 9折优惠。普通用户无法充值。
         </p>
       </div>
 
@@ -82,17 +83,17 @@ export function PricingSection() {
 
           {/* Plan name */}
           <h3 className="font-[var(--font-bebas)] text-3xl md:text-4xl tracking-tight mb-2">永久会员</h3>
-          <p className="font-mono text-xs text-muted-foreground mb-8">一次充值 ¥99，全额到账余额，终身有效</p>
+          <p className="font-mono text-xs text-muted-foreground mb-8">购买30元卡密，送永久会员账户，终身有效</p>
 
           {/* Price */}
           <div className="mb-10">
             <span className="font-[var(--font-bebas)] text-6xl md:text-8xl tracking-tight text-primary">
-              ¥99
+              ¥30
             </span>
-            <span className="font-mono text-xs text-muted-foreground ml-3">一次性充值 = 余额 ¥99</span>
+            <span className="font-mono text-xs text-muted-foreground ml-3">购买卡密 = 送永久会员账户</span>
             <div className="mt-3 font-mono text-xs">
               <span className="text-muted-foreground line-through">¥0.36/条</span>
-              <span className="text-primary ml-2">¥0.216/条 (6折)</span>
+              <span className="text-primary ml-2">¥0.324/条 (9折)</span>
             </div>
           </div>
 
@@ -108,7 +109,7 @@ export function PricingSection() {
 
           {/* CTA button */}
           <a
-            href="https://ur.alipay.com/_6zXEVOzmKeWhLv9Z8QRKRU"
+            href="https://nobodysms.online/"
             target="_blank"
             rel="noopener noreferrer"
             className="pixel-button w-full py-3 font-mono text-xs uppercase tracking-widest block text-center"
@@ -118,7 +119,7 @@ export function PricingSection() {
 
           {/* Note */}
           <p className="mt-6 font-mono text-[10px] text-muted-foreground leading-relaxed">
-            首次充值 ¥99 后，金额将全额到账为您的账户余额，并开通永久会员专属账户及充值权限。此后即可随时充值并享 6 折优惠（普通用户无法充值）。
+            购买30元卡密后，即赠送永久会员专属账户及充值权限。此后即可随时充值并享 9 折优惠（普通用户无法充值）。
           </p>
 
           {/* Invite rules */}
@@ -160,10 +161,10 @@ export function PricingSection() {
           ))}
         </div>
         <p className="mt-4 font-mono text-xs text-muted-foreground">
-          普通用户价格: <span className="text-primary">¥0.36/条</span> | 会员价格: <span className="text-primary">¥0.216/条</span>
+          普通用户价格: <span className="text-primary">¥0.36/条</span> | 会员价格: <span className="text-primary">¥0.324/条</span>
         </p>
         <p className="mt-2 font-mono text-xs text-muted-foreground">
-          注: 普通用户无法充值，需一次性充值 <span className="text-primary">¥99</span> 开通永久会员专属账户后方可充值。
+          注: 普通用户无法充值，需购买 <span className="text-primary">30元卡密</span> 获赠永久会员专属账户后方可充值。
         </p>
       </div>
     </section>
