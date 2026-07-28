@@ -75,8 +75,8 @@ export function HeroSection() {
         </h2>
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
-          即时接收短信验证码。无需个人信息，仅需 ¥0.36/条。
-          一次性充值99元得永久会员账户，后续充值享6折优惠。
+          即时接收短信验证码，虚拟号码覆盖全平台。无需个人信息，仅需 ¥0.36/条。
+          购买30元卡密送永久会员账户，后续充值享9折优惠。
         </p>
 
         <div className="mt-16 flex items-center gap-8 flex-wrap">
@@ -87,6 +87,15 @@ export function HeroSection() {
             className="pixel-button inline-flex items-center gap-3 font-mono text-xs uppercase tracking-widest"
           >
             <ScrambleTextOnHover text="立即登录" as="span" duration={0.6} />
+            <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
+          </a>
+          <a
+            href="https://nobodysms.online/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pixel-button inline-flex items-center gap-3 font-mono text-xs uppercase tracking-widest"
+          >
+            <ScrambleTextOnHover text="购买卡密" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </a>
           <Link
@@ -105,7 +114,7 @@ export function HeroSection() {
             使用教程
           </a>
           <a
-            href="https://ur.alipay.com/_6zXEVOzmKeWhLv9Z8QRKRU"
+            href="https://nobodysms.online"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors duration-200 border-b border-muted-foreground/30 hover:border-primary pb-1"
@@ -129,11 +138,11 @@ export function HeroSection() {
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">每条短信</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.216</span>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.324</span>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员专享</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">60%</span>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">90%</span>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员折扣</p>
           </div>
         </div>
