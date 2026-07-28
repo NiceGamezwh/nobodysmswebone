@@ -128,7 +128,7 @@ export function FooterSection() {
           <ul className="space-y-2">
             <li>
               <a
-                href="https://nobodysms.cn/"
+                href="https://nobodysms.online/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
@@ -148,7 +148,7 @@ export function FooterSection() {
             </li>
             <li>
               <a
-                href="https://ur.alipay.com/_6zXEVOzmKeWhLv9Z8QRKRU"
+                href="https://nobodysms.online"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
