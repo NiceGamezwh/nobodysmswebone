@@ -8,8 +8,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 gsap.registerPlugin(ScrollTrigger)
 
 const membershipFeatures = [
-  "购买30元卡密，送永久会员专属账户",
-  "开通充值权限，成为永久会员专属账户",
+  "充值达30元，送永久会员",
+  "开通对接权限，成为永久会员专属账户",
   "后续充值永久享 6-9 折优惠",
   "邀请返利: 下级消费5%返还",
   "新功能优先体验 & 专属定制服务",
@@ -68,7 +68,7 @@ export function PricingSection() {
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">03 / 永久会员</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">MEMBERSHIP</h2>
         <p className="mt-4 max-w-lg font-mono text-sm text-muted-foreground leading-relaxed">
-          购买30元卡密，送永久会员专属账户与充值权限。后续充值永久享 6-9折优惠。
+          充值达30元，送永久会员专属账户与对接权限。后续充值永久享 6-9折优惠。
         </p>
       </div>
 
@@ -82,14 +82,14 @@ export function PricingSection() {
 
           {/* Plan name */}
           <h3 className="font-[var(--font-bebas)] text-3xl md:text-4xl tracking-tight mb-2">永久会员</h3>
-          <p className="font-mono text-xs text-muted-foreground mb-8">购买30元卡密，送永久会员账户，终身有效</p>
+          <p className="font-mono text-xs text-muted-foreground mb-8">充值达30元，送永久会员账户，终身有效</p>
 
           {/* Price */}
           <div className="mb-10">
             <span className="font-[var(--font-bebas)] text-6xl md:text-8xl tracking-tight text-primary">
               ¥30
             </span>
-            <span className="font-mono text-xs text-muted-foreground ml-3">购买卡密 = 送永久会员账户</span>
+            <span className="font-mono text-xs text-muted-foreground ml-3">购买30元卡密 = 送永久会员账户</span>
             <div className="mt-3 font-mono text-xs">
               <span className="text-muted-foreground line-through">¥0.36/条</span>
               <span className="text-primary ml-2">¥0.216-0.324/条 (6-9折)</span>
@@ -118,7 +118,7 @@ export function PricingSection() {
 
           {/* Note */}
           <p className="mt-6 font-mono text-[10px] text-muted-foreground leading-relaxed">
-            购买30元卡密后，即赠送永久会员专属账户及充值权限。此后即可随时充值并享 6-9 折优惠。
+            充值达30元，即赠送永久会员专属账户及对接权限。此后即可随时充值并享 6-9 折优惠。
           </p>
 
           {/* Invite rules */}
