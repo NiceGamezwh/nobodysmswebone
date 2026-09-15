@@ -28,8 +28,8 @@ const features = [
   },
   {
     icon: "04",
-    title: "永久会员",
-    description: "一次性充值¥99得会员专属账户，后续充值享永久6折优惠，终身有效无需续费。",
+    title: "6折充值",
+    description: "一次性充值¥300，享6折优惠，即付 ¥180 到账 ¥300。",
     span: "col-span-2 row-span-1",
   },
   {
