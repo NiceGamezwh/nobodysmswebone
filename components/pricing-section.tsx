@@ -10,8 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 const membershipFeatures = [
   "购买30元卡密，送永久会员专属账户",
   "开通充值权限，成为永久会员专属账户",
-  "后续充值永久享 9 折优惠",
-  "普通用户无法充值，仅会员可充值",
+  "后续充值永久享 6-9 折优惠",
   "邀请返利: 下级消费5%返还",
   "新功能优先体验 & 专属定制服务",
   "赠送专属对接码密钥",
@@ -69,7 +68,7 @@ export function PricingSection() {
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">03 / 永久会员</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">MEMBERSHIP</h2>
         <p className="mt-4 max-w-lg font-mono text-sm text-muted-foreground leading-relaxed">
-          购买30元卡密，送永久会员专属账户与充值权限。后续充值永久享 9折优惠。普通用户无法充值。
+          购买30元卡密，送永久会员专属账户与充值权限。后续充值永久享 6-9折优惠。
         </p>
       </div>
 
@@ -93,7 +92,7 @@ export function PricingSection() {
             <span className="font-mono text-xs text-muted-foreground ml-3">购买卡密 = 送永久会员账户</span>
             <div className="mt-3 font-mono text-xs">
               <span className="text-muted-foreground line-through">¥0.36/条</span>
-              <span className="text-primary ml-2">¥0.324/条 (9折)</span>
+              <span className="text-primary ml-2">¥0.216-0.324/条 (6-9折)</span>
             </div>
           </div>
 
@@ -119,7 +118,7 @@ export function PricingSection() {
 
           {/* Note */}
           <p className="mt-6 font-mono text-[10px] text-muted-foreground leading-relaxed">
-            购买30元卡密后，即赠送永久会员专属账户及充值权限。此后即可随时充值并享 9 折优惠（普通用户无法充值）。
+            购买30元卡密后，即赠送永久会员专属账户及充值权限。此后即可随时充值并享 6-9 折优惠。
           </p>
 
           {/* Invite rules */}
@@ -161,10 +160,7 @@ export function PricingSection() {
           ))}
         </div>
         <p className="mt-4 font-mono text-xs text-muted-foreground">
-          普通用户价格: <span className="text-primary">¥0.36/条</span> | 会员价格: <span className="text-primary">¥0.324/条</span>
-        </p>
-        <p className="mt-2 font-mono text-xs text-muted-foreground">
-          注: 普通用户无法充值，需购买 <span className="text-primary">30元卡密</span> 获赠永久会员专属账户后方可充值。
+          普通用户价格: <span className="text-primary">¥0.36/条</span> | 会员价格: <span className="text-primary">¥0.216-0.324/条</span>
         </p>
       </div>
     </section>
