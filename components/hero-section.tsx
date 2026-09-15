@@ -138,11 +138,11 @@ export function HeroSection() {
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">每条短信</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.216-0.324</span>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.2-0.3</span>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员专享</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">60%-90%</span>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">6-9折</span>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员折扣</p>
           </div>
         </div>
