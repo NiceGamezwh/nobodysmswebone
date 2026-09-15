@@ -76,7 +76,7 @@ export function HeroSection() {
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
           即时接收短信验证码，虚拟号码覆盖全平台。无需个人信息，仅需 ¥0.36/条。
-          购买30元卡密送永久会员账户，后续充值享9折优惠。
+          购买30元卡密送永久会员账户，后续充值享6-9折优惠。
         </p>
 
         <div className="mt-16 flex items-center gap-8 flex-wrap">
@@ -138,11 +138,11 @@ export function HeroSection() {
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">每条短信</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.324</span>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.216-0.324</span>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员专享</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">90%</span>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">60%-90%</span>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员折扣</p>
           </div>
         </div>
