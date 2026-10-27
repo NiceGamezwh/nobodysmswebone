@@ -96,7 +96,7 @@ export function FooterSection() {
           <ul className="space-y-2">
             <li className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer">短信验证</li>
             <li className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer">虚拟号码</li>
-            <li className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer">永久会员</li>
+            <li className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer">充值折扣</li>
           </ul>
         </div>
 
@@ -105,9 +105,8 @@ export function FooterSection() {
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-primary mb-4">价格说明</h4>
           <ul className="space-y-2">
             <li className="font-mono text-xs text-foreground/80">普通用户 ¥0.36/条</li>
-            <li className="font-mono text-xs text-foreground/80">永久会员 ¥99</li>
-            <li className="font-mono text-xs text-foreground/80">会员价 ¥0.216/条</li>
-            <li className="font-mono text-xs text-foreground/80">永久6折优惠</li>
+            <li className="font-mono text-xs text-foreground/80">卡密充值 8-9折</li>
+            <li className="font-mono text-xs text-foreground/80">折扣价 ¥0.2-0.3/条</li>
           </ul>
         </div>
 
@@ -153,7 +152,7 @@ export function FooterSection() {
                 rel="noopener noreferrer"
                 className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
               >
-                开通会员
+                购买卡密
               </a>
             </li>
           </ul>

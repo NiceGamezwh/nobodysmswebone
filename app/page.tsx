@@ -1,6 +1,5 @@
 import { HeroSection } from "@/components/hero-section"
 import { FeaturesSection } from "@/components/features-section"
-import { PricingSection } from "@/components/pricing-section"
 import { HowItWorksSection } from "@/components/how-it-works-section"
 import { FooterSection } from "@/components/footer-section"
 import { SideNav } from "@/components/side-nav"
@@ -15,7 +14,6 @@ export default function Page() {
         <HeroSection />
         <FeaturesSection />
         <HowItWorksSection />
-        <PricingSection />
         <FooterSection />
       </div>
     </main>

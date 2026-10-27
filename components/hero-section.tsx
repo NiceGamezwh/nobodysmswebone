@@ -8,7 +8,6 @@ import { BitmapChevron } from "@/components/bitmap-chevron"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import Image from "next/image"
-import Link from "next/link"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -97,28 +96,14 @@ export function HeroSection() {
             <ScrambleTextOnHover text="购买卡密" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </a>
-          <Link
-            href="/search"
-            className="pixel-button inline-flex items-center gap-3 font-mono text-xs uppercase tracking-widest"
-          >
-            <ScrambleTextOnHover text="查询ID" as="span" duration={0.6} />
-            <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
-          </Link>
           <a
             href="https://www.yuque.com/nobodysms/xlypsu"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors duration-200 border-b border-muted-foreground/30 hover:border-primary pb-1"
+            className="pixel-button inline-flex items-center gap-3 font-mono text-xs uppercase tracking-widest"
           >
-            使用教程
-          </a>
-          <a
-            href="https://nobodysms.online"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors duration-200 border-b border-muted-foreground/30 hover:border-primary pb-1"
-          >
-            开通会员
+            <ScrambleTextOnHover text="使用教程" as="span" duration={0.6} />
+            <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </a>
           <a
             href="https://qm.qq.com/q/RGUJvLdoce"
@@ -138,11 +123,11 @@ export function HeroSection() {
           </div>
           <div>
             <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥0.2-0.3</span>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员专享</p>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">充值专享</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">6-9折</span>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员折扣</p>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">8-9折</span>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">充值折扣</p>
           </div>
         </div>
       </div>

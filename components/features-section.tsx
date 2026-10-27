@@ -28,14 +28,14 @@ const features = [
   },
   {
     icon: "04",
-    title: "6折充值",
-    description: "一次性充值¥300，享6折优惠，即付 ¥180 到账 ¥300。",
+    title: "8-9折充值",
+    description: "购买卡密充值，享8-9折优惠。",
     span: "col-span-2 row-span-1",
   },
   {
     icon: "05",
     title: "超低价格",
-    description: "仅需 ¥0.36/条，会员更享专属折扣。支持支付宝、微信支付。",
+    description: "仅需 ¥0.36/条，卡密充值更享专属折扣。",
     span: "col-span-1 row-span-1",
   },
 ]

@@ -19,7 +19,7 @@ export function HowItWorksSection() {
         { text: "选择", highlight: true },
         { text: "号码", highlight: false },
       ],
-      description: "从海量虚拟号码池中选择，覆盖各类主流平台验证需求。",
+      description: "从海量号码池中选择，覆盖各类主流平台验证需求。",
       align: "left",
     },
     {
@@ -28,7 +28,7 @@ export function HowItWorksSection() {
         { text: "充值", highlight: false },
         { text: "支付", highlight: true },
       ],
-      description: "支持支付宝、微信支付，仅需 ¥0.36/条。充值达30元卡密获赠永久会员专属账户，后续充值永久享 6-9 折优惠。",
+      description: "支持支付宝支付，仅需 ¥0.36/条。卡密充值享 8-9 折优惠",
       align: "right",
     },
     {
