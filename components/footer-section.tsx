@@ -127,7 +127,7 @@ export function FooterSection() {
           <ul className="space-y-2">
             <li>
               <a
-                href="https://nobodysms.online/"
+                href="https://nobodysms.cn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
@@ -137,22 +137,46 @@ export function FooterSection() {
             </li>
             <li>
               <a
-                href="https://www.yuque.com/nobodysms/xlypsu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
-              >
-                使用教程
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://nobodysms.online"
+                href="https://nobodysms.online/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
               >
                 购买卡密
+              </a>
+            </li>
+            <li>
+              <a
+                href="/jima"
+                className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
+              >
+                接码说明
+              </a>
+            </li>
+            <li>
+              <a
+                href="/faq"
+                className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
+              >
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a
+                href="/guide"
+                className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
+              >
+                教程
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.yuque.com/nobodysms/xlypsu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-mono text-xs text-foreground/80 hover:text-primary transition-colors cursor-pointer"
+              >
+                语雀文档
               </a>
             </li>
           </ul>
