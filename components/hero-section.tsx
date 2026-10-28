@@ -93,7 +93,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="pixel-button inline-flex items-center gap-3 font-mono text-xs uppercase tracking-widest"
           >
-            <ScrambleTextOnHover text="购买卡密" as="span" duration={0.6} />
+            <ScrambleTextOnHover text="立即注册" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </a>
           <a
